@@ -1,0 +1,113 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.calculator {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  transition: background 0.3s, color 0.3s;
+}
+
+.calculator.light {
+  background: #f9f9f9;
+  color: #333;
+}
+
+.calculator.dark {
+  background: #222;
+  color: #eee;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.theme-toggle {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.display {
+  width: 100%;
+  font-size: 2rem;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  text-align: right;
+  border: none;
+  border-radius: 0.5rem;
+  background: rgba(255, 255, 255, 0.1);
+  color: inherit;
+}
+
+.unit-label {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+}
+
+button {
+  font-size: 1.2rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.calculator.light button {
+  background: #e0e0e0;
+  color: #000;
+}
+
+.calculator.dark button {
+  background: #333;
+  color: #fff;
+}
+
+button:hover {
+  background: #888;
+}
+
+.history {
+  margin-top: 1rem;
+}
+
+.history ul {
+  list-style: none;
+  padding: 0;
+  max-height: 150px;
+  overflow-y: auto;
+}
+.app-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.history-box {
+  width: 200px;
+  background: #f4f4f4;
+  padding: 1rem;
+  border-radius: 10px;
+  overflow-y: auto;
+  height: 500px;
+}
+
+.calculator {
+  flex: 1;
+  /* existing calculator styles */
+}
