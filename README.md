@@ -7,7 +7,7 @@ A professional-grade, modern, scientific calculator built with **React.js**. Thi
 ## ✨ Features
 
 ### 🧮 Core Calculator Functions 
-- Addition, Subtraction, Multiplication, Division
+- Addition, Subtraction, Multiplication, Division 
 - Decimal handling and parentheses  
 - Square root support via `√`    
 - Trigonometric functions: `sin`, `cos`, `tan`    
