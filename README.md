@@ -3,7 +3,7 @@
 A professional-grade, modern, scientific calculator built with **React.js**. This app supports advanced mathematical operations, unit conversions, voice input, history tracking, theme toggling, and scientific notation formatting. Designed for clarity, functionality, and production-readiness.
 
 ---
-
+ 
 ## ✨ Features
 
 ### 🧮 Core Calculator Functions  
