@@ -46,17 +46,17 @@ A professional-grade, modern, scientific calculator built with **React.js**. Thi
 ## 📁 Project Structure
 
 ```
-advanced-calculator-react/
-├── public/
-│   └── index.html               # Root HTML template
-├── src/
-│   ├── App.js                   # Main Calculator component
-│   ├── index.js                 # ReactDOM entry point
-│   ├── styles.css               # Component and theme styles
-│   └── assets/                  # (Optional) Icons or images
-├── .gitignore
-├── package.json
-└── README.md                    # You're here!
+Directory structure:
+└── hariharans24-advanced-calculator-react/
+    ├── README.md
+    ├── LICENSE
+    ├── package.json
+    ├── public/
+    │   └── index.html
+    └── src/
+        ├── App.js
+        ├── index.js
+        └── styles.css
 ```
 
 ---
